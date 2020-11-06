@@ -188,7 +188,7 @@ ul.nav-list li .nav-link {
   width: 100%;
   height: 90vh;
   max-height: 600px;
-  background: url("../images/main-bg.jpg") no-repeat center center fixed;
+  background: url("../images/main-bg.webp") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -214,11 +214,12 @@ ul.nav-list li .nav-link {
 }
 
 .heading h1 {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .heading p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 /* Menu */
@@ -256,7 +257,7 @@ ul.nav-list li .nav-link {
   padding: 3rem 0 4rem 0;
   width: 100%;
   color: var(--clr-white);
-  background: url("../images/about-bg2.jpg") no-repeat center/cover;
+  background: url("../images/about-bg2.webp") no-repeat center/cover;
 }
 
 .about-section::after {
@@ -326,6 +327,7 @@ ul.nav-list li .nav-link {
 }
 
 .gallery a img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -383,7 +385,7 @@ footer,
 /* Media Queries */
 @media screen and(min-width: 1600px) {
   .home {
-    background: url("../images/background.png") no-repeat center center fixed;
+    background: url("../images/background.webp") no-repeat center center fixed;
   }
 }
 
